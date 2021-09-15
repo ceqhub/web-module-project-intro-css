@@ -1,0 +1,144 @@
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;  
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*universal selector styles*/
+*{
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0; 
+  max-width: 100%;
+  border: 1px solid grey;
+}
+/*General Styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+/*Header Section Styles*/
+nav{
+    padding: 2% 0;
+}
+nav a{
+     display: inline-block;
+     padding: 1% 0;
+     width: 10%;
+     border-radius: 10px;
+     text-align: center;
+     color:#FFF;
+     font-size: 1.5rem;
+ }
+.orange{
+    background-color:#FF764E;
+    margin-left: 10%;
+
+}
+.blue{
+    background-color:#5ED3EB;
+    margin: 0 24%;
+}
+.yellow{
+    background-color:#FFCD69;
+    margin-right: 5%;
+}
+/*top section*/
+.left, .right{
+    display:inline-block;    
+}
+.left{
+    width: 35%;
+}
+.left img{
+    width: 80%;
+    border-radius:50%;
+    position:center;
+    
+}
+.right{
+    width:60%;
+    position:center;
+    text-align:center;
+}
+
+/*section 3*/
+.container{
+    margin: 2%;
+    padding:0%;
+    text-align: center;
+    color:#FFF;
+    background-color: #DDB9A3;
+}
+
+/*section 4*/
+.container2{
+    width:100%;ZZZA<
+    padding:0%;
+    text-align: center;
+    font-size:15px;
+}
+  
+.container2 img{
+     display: inline-block;
+     size: 1%;
+     padding: 1% 0;
+     max-width: 100%; 
+}
+
+/*section Footer*/
+.footer-content { 
+    margin: 0 auto; 
+    width: 100%;
+  }
+ <img src="assets/header_img.jpg" alt="Yosemite mountains">
+
+}
